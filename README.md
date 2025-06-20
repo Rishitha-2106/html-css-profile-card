@@ -14,3 +14,6 @@ Just open `index.html` in your browser.
 - Font Awesome icons for GitHub & LinkedIn
 - Custom Google Fonts
 
+## 💡 Improvements with More Time
+- Add theme toggle (light/dark mode)
+- Add a short portfolio popup or modal
