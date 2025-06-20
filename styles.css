@@ -1,0 +1,82 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styling */
+.card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* Name and bio */
+h2 {
+  margin: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
+/* Links with icons */
+.links a {
+  margin: 0 0.5rem;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.links a i {
+  margin-right: 5px;
+}
+
+.links a:hover {
+  color: #004e99;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 400px) {
+  .card {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
