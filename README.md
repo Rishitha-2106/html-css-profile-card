@@ -1,4 +1,3 @@
-# html-css-profile-card
 # Responsive Profile Card
 
 ## 📝 Overview
